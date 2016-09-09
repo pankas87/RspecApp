@@ -36,6 +36,9 @@ group :development, :test do
 
   # RSpec
   gem 'rspec-rails', '~> 3.4'
+
+  # Chigüire
+  gem 'capybara', '~> 2.5'
 end
 
 group :development do
