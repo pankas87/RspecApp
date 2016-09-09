@@ -40,6 +40,7 @@ group :development, :test do
   # Chigüire
   gem 'capybara', '~> 2.5'
 
+  # Factories
   gem 'factory_girl_rails', '~> 4.5.0'
 end
 
@@ -55,7 +56,12 @@ end
 group :test do
   gem 'shoulda-matchers', '~> 3.0', require: false
   gem 'database_cleaner', '~> 1.5'
+
+  # Fake data for testing
   gem 'faker', '~> 1.6.1'
+
+  # Code Coverage
+  gem 'simplecov', :require => false
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
